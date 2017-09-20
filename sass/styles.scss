@@ -1,0 +1,101 @@
+
+// Color
+$blue: rgba(71, 137, 159, 1);
+$medium_grey: #C1C3C3;
+$green: #417505;
+
+// 8 pix sizes
+$xxs: 4px;
+$xs: 8px;
+$s: 16px;
+$xm: 24px;
+$m: 32px;
+$l: 40px;
+$xl: 64px;
+
+// Typography
+$regular: 400;
+$bold: 600;
+$black: 900;
+
+// Testing Colors
+$testing_color_1: rgba(255,130,130,0.56); //red
+$testing_color_2: rgba(255,200,143,0.53); //orange
+$testing_color_3: rgba(167,199,255,0.50); //blue
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: $regular;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: $m;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 124px;
+  line-height: 164px;
+  color: #3B0001;
+  text-align: left;
+  padding-right: 30%;
+  @media ( max-width: 1500px ) {
+    padding-right: 0;
+  }
+  @media ( max-width: 1000px ) {
+    font-size: 64px;
+    line-height: 84px;
+  }
+  @media ( max-width: 600px ) {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  a {
+    font-family: "Playfair Display script=all rev=1", "Adobe Blank";
+    font-style: italic;
+    font-size: 142px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #FE6467;
+    @media ( max-width: 1000px ) {
+      font-size: 72px;
+      line-height: 72px;
+    }
+    @media ( max-width: 600px ) {
+      font-size: 42px;
+      line-height: 48px;
+    }
+  }
+  a:hover, a:focus {
+    color: #FA9B9D;
+    transition: 0.3s;
+  }
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: $s;
+  font-weight: 100;
+  margin-top: $s;
+  margin-bottom: $s;
+  a {
+    color: #3B0001;
+    text-decoration: none;
+  }
+  a:hover, a:focus {
+    color: #FE6467;
+    transition: 0.3s;
+  }
+}
+
+p {
+  font-size: $xs;
+  margin-bottom: $xs;
+}
+
+#content {
+  padding: $l;
+}
