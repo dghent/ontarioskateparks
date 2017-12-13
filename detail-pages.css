@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+/* UNIVERSAL */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+img {
+  width: 100%;
+  padding-top: 32px;
+}
+
+/* ROOT FONT STYLES */
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+.header {
+  padding: 64px 8px 64px 8px;
+}
+
+.container {
+ margin: 0 32px 0 32px;
+}
+
+.footer-link {
+  padding: 64px 0 64px 0;
+}
+
+/* LINKS */
+
+a {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  text-decoration: none;
+  color: #6CD9AA;
+  text-decoration-style: solid;
+}
+
+a:hover {
+  color: #1d6a49;
+}
+
+.back-link {
+  margin-top: 32px;
+}
